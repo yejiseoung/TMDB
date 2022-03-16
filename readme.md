@@ -7,21 +7,17 @@ In this project, I built a machine learning model to predict movie revenue by an
 
 
 
-
 ## File Description
-The files structure is arranged as below:
+Each jupyter notebook shows workflow:
         
-    - Building_Model_Pipeline.ipynb 
-        : Workflow regarding building Gradient Boosting Model.
-    - Cleaning_EDA_and_Visalization.ipynb 
-        : Data cleaning, exploratory data analysis, and visualizing data.
+    - Cleaning_FeatureEngineering.ipynb 
+        : Shows workflow regarding data clearning, and feature engineering. 
     - FeatureEngineeringScaling.ipynb 
-        : Investigations regarding feature engineering, feature scaling, and feature importance. 
-    - HyperparameterTuningForGBM.ipynb 
-        : Hyperparameter tuning by using Optuna to find the best parameters for GBM model. 
-    - Oversampling.ipynb
-        : Finding the best over-sampling methods for this project to deal with imbalanced dataset.
-    - readme.md
+        : Exploratory data analysis, and investigations rearding feature engineering and feature scaling.
+    - HyperparameterTuning.ipynb 
+        : Used Optuna to tune hyperparameters to find the best paramters for lightGBM model. 
+    - PipelineToBuildModel.ipynb 
+        : Built model pipeline and evaluate the model. 
 
 
 ## Dependencies
@@ -31,7 +27,7 @@ The files structure is arranged as below:
     - Pandas
     - Sciki-Learn
     - Feature-engine
-    - Imblearn
+    - lightGBM
     - Optuna
 - Visualization: Matplotlib, Seaborn
 
